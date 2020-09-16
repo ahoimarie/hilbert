@@ -20,7 +20,7 @@ with open('requirements.txt') as f:
 
 setup(
    name='hilbert',
-   version='1.0',
+   version='0.1',
    license="GPL-2.0 License",
    long_description=readme,
    description='A module to calculate the Hilbert transforms of whisker data.',

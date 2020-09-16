@@ -1,4 +1,3 @@
-import pytest
 import numpy as np
 from hilb.hilbert_transforms import get_slow_var
 from hilb.hilbert_transforms import phase_from_hilbert
