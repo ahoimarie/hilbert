@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/ahoimarie/hilbert.svg?branch=master)](https://travis-ci.org/ahoimarie/hilbert)
-
+[![Build Status](https://travis-ci.com/ahoimarie/hilbert.svg?token=USnpr24bQjvx6pPPWuJG&branch=master)](https://travis-ci.com/ahoimarie/hilbert)
 
 # Hilbert transform for whisker analysis
 
