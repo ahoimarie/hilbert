@@ -12,12 +12,15 @@ python:
 install:
   - pip install -r requirements.txt
   - pip install pytest
+ignore:
+   - "setup.py"
 # command to run tests
 script:
   - pytest --cov=./
-
-env:
-    - CODECOV_TOKEN="49826f5b-5a70-4cc0-a0c7-1b312319c8d9"
+#
+#env:
+#    - CODECOV_TOKEN="49826f5b-5a70-4cc0-a0c7-1b312319c8d9"
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+
