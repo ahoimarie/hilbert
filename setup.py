@@ -26,7 +26,7 @@ setup(
    description='A module to calculate the Hilbert transforms of whisker data.',
    author='Marie Tolkiehn',
    author_email='marie+git@kent.nu',
-   packages=_package_tree('hilbert'),
+   packages=_package_tree('hilb'),
    install_requires=require,  # external packages as dependencies
    include_package_data=True
 )
